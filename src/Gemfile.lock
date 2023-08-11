@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.5)
+      public_suffix (>= 2.0.2, < 6.0)
     bootstrap-email (1.0.0.alpha2.1)
       nokogiri (~> 1.6)
       premailer (~> 1.7)
@@ -21,12 +21,13 @@ GEM
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
-    public_suffix (4.0.6)
+    public_suffix (5.0.3)
     racc (1.5.2)
     sassc (2.4.0)
       ffi (~> 1.9)
 
 PLATFORMS
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
